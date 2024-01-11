@@ -1,7 +1,12 @@
 name = "SetTesters"
 uuid = "a899bb2e-0351-4632-a924-f92d91bd9a61"
 authors = ["Youngsung Kim <youngsung.kim.act2@gmail.com>"]
-version = "1.0.0-DEV"
+version = "0.1.0"
+
+[deps]
+SetBuilders = "0ea2c469-657e-49fe-9dbc-af43455b405b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
-julia = "1.2"
+julia = "1.6"
+SetBuilders = "0.1.2"
